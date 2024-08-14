@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "hero-slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_hRmkea": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide5.jpg",
+            "heading": "画像スライド",
+            "heading_size": "h1",
+            "subheading": "ブランドのストーリーを画像で伝える",
+            "button_label": "ボタンのラベル",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_JR68hr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider2.jpg",
+            "heading": "画像スライド",
+            "heading_size": "h1",
+            "subheading": "ブランドのストーリーを画像で伝える",
+            "button_label": "ボタンのラベル",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero_iphone_family_a__c7v3mvx3jv42_large_2x_43e08996-6e2c-4541-aa52-437c7053f687.jpg",
+            "heading": "画像スライド",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "ボタンのラベル",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_LQWEU4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide3.jpg",
+            "heading": "画像スライド",
+            "heading_size": "h1",
+            "subheading": "ブランドのストーリーを画像で伝える",
+            "button_label": "ボタンのラベル",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_q9DKTR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide4.jpg",
+            "heading": "画像スライド",
+            "heading_size": "h1",
+            "subheading": "ブランドのストーリーを画像で伝える",
+            "button_label": "ボタンのラベル",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hRmkea",
+        "slide_JR68hr",
+        "slide-0",
+        "slide_LQWEU4",
+        "slide_q9DKTR"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "ブランドについてのスライドショー"
+      }
+    },
+    "all-products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "特集コレクション",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": true,
+        "description_style": "subtitle",
+        "collection": "all",
+        "products_to_show": 24,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "collection_list_W4eWAh": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_TzxP6y": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_Me6EzR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_7dq3Ac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_TzxP6y",
+        "featured_collection_Me6EzR",
+        "featured_collection_7dq3Ac"
+      ],
+      "settings": {
+        "title": "コレクション",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "スマートウォッチ"
+          }
+        },
+        "collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "スマートフォン"
+          }
+        },
+        "collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "タブレット"
+          }
+        },
+        "collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "パソコン"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "title": "コレクション",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/promo_ios_18__d5u1c7t15uwm_large_2x_45257b01-eff7-4234-ba79-42277921de37.jpg",
+        "image_2": "shopify:\/\/shop_images\/promo_iphone_tradein__bugw15ka691e_large_2x_408a425a-f4e3-45a2-9fe2-4efe5fb301a8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "hero-slideshow",
+    "all-products",
+    "collection_list_W4eWAh",
+    "collection-list",
+    "image-banner"
+  ]
+}

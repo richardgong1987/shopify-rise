@@ -1,0 +1,72 @@
+{% schema %}
+{
+  "name": "Menu",
+  "settings": [
+    {
+      "type": "text",
+      "id": "menu_title",
+      "label": "Menu Title",
+      "default": "Main Menu"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Select Menu",
+      "default": "main-menu"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "options": [
+        {
+          "value": "scheme-1",
+          "label": "Scheme 1"
+        },
+        {
+          "value": "scheme-2",
+          "label": "Scheme 2"
+        }
+      ],
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+    .menu {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    color-scheme: {{ section.settings.color_scheme }};
+    }
+{% endstyle %}
+
+<div class="menu">
+    <h2>{{ section.settings.menu_title }}</h2>
+    <ul>
+        {% for link in linklists[section.settings.menu].links %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

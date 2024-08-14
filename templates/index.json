@@ -1,5 +1,31 @@
 {
   "sections": {
+    "left-side-menu": {
+      "type": "menu",
+      "settings": {
+        "menu_items": [
+          {
+            "label": "Home",
+            "link": "/"
+          },
+          {
+            "label": "Shop",
+            "link": "/collections/all"
+          },
+          {
+            "label": "About Us",
+            "link": "/pages/about-us"
+          },
+          {
+            "label": "Contact",
+            "link": "/pages/contact"
+          }
+        ],
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "hero-slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -246,6 +272,7 @@
     }
   },
   "order": [
+    "left-side-menu",
     "hero-slideshow",
     "all-products",
     "collection_list_W4eWAh",

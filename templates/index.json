@@ -1,31 +1,5 @@
 {
   "sections": {
-    "left-side-menu": {
-      "type": "menu",
-      "settings": {
-        "menu_items": [
-          {
-            "label": "Home",
-            "link": "/"
-          },
-          {
-            "label": "Shop",
-            "link": "/collections/all"
-          },
-          {
-            "label": "About Us",
-            "link": "/pages/about-us"
-          },
-          {
-            "label": "Contact",
-            "link": "/pages/contact"
-          }
-        ],
-        "color_scheme": "scheme-1",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "hero-slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -137,6 +111,10 @@
         "show_text_below": true,
         "accessibility_info": "ブランドについてのスライドショー"
       }
+    },
+    "left-side-menu": {
+      "type": "menu",
+      "settings": {}
     },
     "all-products": {
       "type": "featured-collection",
@@ -272,8 +250,8 @@
     }
   },
   "order": [
-    "left-side-menu",
     "hero-slideshow",
+    "left-side-menu",
     "all-products",
     "collection_list_W4eWAh",
     "collection-list",

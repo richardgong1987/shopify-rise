@@ -52,6 +52,16 @@
             "inventory_threshold": 10,
             "show_inventory_quantity": true
           }
+        },
+        "judge_me_reviews_review_widget_DDNTCj": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "judge_me_reviews_preview_badge_bWmtfM": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -62,7 +72,9 @@
         "variant-picker",
         "quantity-selector",
         "buy_buttons",
-        "product-inventory"
+        "product-inventory",
+        "judge_me_reviews_review_widget_DDNTCj",
+        "judge_me_reviews_preview_badge_bWmtfM"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -86,6 +98,7 @@
         "collapsible-row-0": {
           "type": "collapsible_row",
           "settings": {
+            "heading": "折りたたみ可能な行",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -94,6 +107,7 @@
         "collapsible-row-1": {
           "type": "collapsible_row",
           "settings": {
+            "heading": "折りたたみ可能な行",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -102,6 +116,7 @@
         "collapsible-row-2": {
           "type": "collapsible_row",
           "settings": {
+            "heading": "折りたたみ可能な行",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -115,6 +130,7 @@
       ],
       "settings": {
         "caption": "",
+        "heading": "折りたたみ可能なコンテンツ",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "section",
@@ -130,6 +146,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
+        "heading": "あなたへのおすすめ",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,

@@ -99,6 +99,9 @@
                       {{ product.title | escape }}
                     </h2>
                   </a>
+
+                    {% assign current_variant = product.selected_or_first_available_variant %}
+                    商品番号: {{ current_variant.sku }}
                 </div>
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>

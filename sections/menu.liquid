@@ -48,18 +48,24 @@
 }
 {% endschema %}
 
-{% style %}
-    .menu {
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
-    color-scheme: {{ section.settings.color_scheme }};
-    }
-{% endstyle %}
+<style>
+    .my-sidebar-customs {
+        width: 200px;
+        position: absolute;
+        top: 0;
+        left: -200px;
 
-<div class="menu">
-    <ul>
-        {% for link in linklists[section.settings.menu].links %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-    </ul>
+    }
+    .my-sidebar-customs .tmenu_item_icon{
+        background: url("https://cdn.shopify.com/s/files/1/0658/0741/7507/files/ico_smt.png") no-repeat left center;
+    }
+    .my-sidebar-customs .tmenu_item_icon svg{
+     width: 1.5em;
+    }
+</style>
+<div class="page-width" style="position: relative;">
+    <div class="my-sidebar-customs">
+        <div id="side-bar"></div>
+    </div>
 </div>
+

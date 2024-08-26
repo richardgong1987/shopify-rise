@@ -27,9 +27,11 @@
     assign results_url = '?q=' | append: terms | append: '&options%5Bprefix%5D=last&sort_by=' | append: sort_by
   endif
 -%}
-
+<div class="all" style="text-align: center;"><h2 style="font-size: 4rem;font-weight: bolder;">{{ search.terms }}の総在庫数<span class="num">{{ results.results_count }}</span>台<br>中古も未使用も選び放題！</h2></div>
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+
   {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
+
     <facet-filters-form class="facets small-hide">
       <form
         id="FacetFiltersForm"

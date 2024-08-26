@@ -358,5 +358,10 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script>
+      if (location.search.includes('searchbar=hidden')) {
+        document.querySelector('.template-search__header').style.display = 'none';
+      }
+    </script>
   </body>
 </html>

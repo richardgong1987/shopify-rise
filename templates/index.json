@@ -3,90 +3,54 @@
     "hero-slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide_hRmkea": {
+        "slide_eKNAzg": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide5.jpg",
-            "heading": "画像スライド",
+            "image": "shopify:\/\/shop_images\/dd_chip_built__eylp7o8t3c66_large_2x_3218f0f0-3e21-4151-b4f1-921a0955c759.jpg",
+            "heading": "ゲームチェンジャーとなるチップ",
             "heading_size": "h1",
-            "subheading": "ブランドのストーリーを画像で伝える",
-            "button_label": "ボタンのラベル",
-            "link": "",
+            "subheading": "非常にスマートでパワフルなiPhoneチップは、あなたのあらゆる体験を強化します。例えば、A17 Proはこれまでで最も先進的なグラフィックス性能を発揮し、これまでのスマートフォンでは見たことのないゲームを実現します。",
+            "button_label": "more",
+            "link": "\/search?q=iPhone&options%5Bprefix%5D=last&searchbar=hidden",
             "button_style_secondary": true,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },
-        "slide_JR68hr": {
+        "slide_zaCAha": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slider2.jpg",
-            "heading": "画像スライド",
-            "heading_size": "h1",
-            "subheading": "ブランドのストーリーを画像で伝える",
-            "button_label": "ボタンのラベル",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hero_iphone_family_a__c7v3mvx3jv42_large_2x_43e08996-6e2c-4541-aa52-437c7053f687.jpg",
-            "heading": "画像スライド",
+            "image": "shopify:\/\/shop_images\/dd_personalize_style__bfsltosktxki_large_2x_c2c3a5c2-d233-4a2f-83ea-94bdb9d37e70.jpg",
+            "heading": "写真、フォント、スタイル、ウィジェット",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "ボタンのラベル",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_LQWEU4": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/slide3.jpg",
-            "heading": "画像スライド",
-            "heading_size": "h1",
-            "subheading": "ブランドのストーリーを画像で伝える",
-            "button_label": "ボタンのラベル",
-            "link": "",
+            "button_label": "详细",
+            "link": "\/search?q=android&options%5Bprefix%5D=last&searchbar=hidden",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
-        "slide_q9DKTR": {
+        "slide_YwTi89": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide4.jpg",
-            "heading": "画像スライド",
-            "heading_size": "h1",
-            "subheading": "ブランドのストーリーを画像で伝える",
-            "button_label": "ボタンのラベル",
-            "link": "",
-            "button_style_secondary": false,
+            "image": "shopify:\/\/shop_images\/android-slider.webp",
+            "heading": "三つ星スマホとは？",
+            "heading_size": "h2",
+            "subheading": "誰でも安⼼！制限ナシすべての通信キャリアでそのまま使える",
+            "button_label": "スマホ一覧を見る",
+            "link": "\/search?q=android&options%5Bprefix%5D=last&searchbar=hidden",
+            "button_style_secondary": true,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
@@ -95,11 +59,9 @@
         }
       },
       "block_order": [
-        "slide_hRmkea",
-        "slide_JR68hr",
-        "slide-0",
-        "slide_LQWEU4",
-        "slide_q9DKTR"
+        "slide_eKNAzg",
+        "slide_zaCAha",
+        "slide_YwTi89"
       ],
       "custom_css": [
 
@@ -108,7 +70,7 @@
         "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "dots",
-        "auto_rotate": true,
+        "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "ambient",
         "show_text_below": true,
@@ -219,7 +181,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
-        "image_behavior": "none",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true

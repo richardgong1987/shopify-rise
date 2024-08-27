@@ -12,7 +12,7 @@
             "subheading": "ブランドのストーリーを画像で伝える",
             "button_label": "ボタンのラベル",
             "link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -101,13 +101,16 @@
         "slide_LQWEU4",
         "slide_q9DKTR"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "medium",
         "slider_visual": "dots",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "show_text_below": true,
         "accessibility_info": "ブランドについてのスライドショー"
       }
@@ -197,7 +200,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "ボタンのラベル",
-        "button_link": "shopify:\/\/collections\/all-my-collections",
+        "button_link": "shopify:\/\/collections",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,

@@ -171,24 +171,24 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#13a128",
+          "background": "#187e27",
           "background_gradient": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
           "text": "#ffffff",
           "button": "#13a128",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#076c28"
+          "secondary_button_label": "#9e3535",
+          "shadow": "#5d83ec"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#68fa5c",
-          "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#f3f3f3",
+          "background": "#458041",
+          "background_gradient": "linear-gradient(46deg, rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)",
+          "text": "#ffffff",
+          "button": "#9e3535",
+          "button_label": "#187e27",
           "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "shadow": "#6b0d0d"
         }
       },
       "scheme-3": {

@@ -28,7 +28,7 @@
   endif
 -%}
 
-<div class="all" style="text-align: center;"><h2 style="font-size: 4rem;font-weight: bolder;"><span id="custom-count-title">{{ search.terms }}</span>の総在庫数<span class="num">{{ results.results_count }}</span>台<br>中古も未使用も選び放題！</h2></div>
+<div class="all" id="custom-count-container" style="text-align: center;"><h2 style="font-size: 4rem;font-weight: bolder;"><span id="custom-count-title">{{ search.terms }}</span>の総在庫数<span class="num">{{ results.results_count }}</span>台<br>中古も未使用も選び放題！</h2></div>
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
 
   {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
@@ -947,7 +947,12 @@
   {%- endif -%}
   <script>
     if (location.search.includes('custom-count-title')) {
-        document.querySelector('#custom-count-title').innerHTML = new URLSearchParams(location.href).get('custom-count-title');
+      let countTitle = document.querySelector('#custom-count-title');
+      countTitle && (countTitle.innerHTML = new URLSearchParams(location.href).get('custom-count-title'));
+    }
+    if(!location.search){
+      const customCountContainer = document.querySelector('#custom-count-container');
+      customCountContainer && customCountContainer.remove();
     }
   </script>
 </div>

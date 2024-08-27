@@ -200,7 +200,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "ボタンのラベル",
-        "button_link": "shopify:\/\/collections",
+        "button_link": "shopify:\/\/collections\/all-my-collections",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,

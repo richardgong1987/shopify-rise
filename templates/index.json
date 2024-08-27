@@ -114,7 +114,12 @@
     },
     "left-side-menu": {
       "type": "menu",
-      "settings": {}
+      "settings": {
+        "menu": "main-menu",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     },
     "all-products": {
       "type": "featured-collection",
@@ -144,91 +149,60 @@
         "padding_bottom": 24
       }
     },
-    "collection_list_W4eWAh": {
-      "type": "collection-list",
+    "multicolumn_fX3Jwy": {
+      "type": "multicolumn",
       "blocks": {
-        "featured_collection_TzxP6y": {
-          "type": "featured_collection",
+        "column_haitt6": {
+          "type": "column",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/Iphone_3c2d7244-7659-49ce-87a5-5e1b4121b49c.webp",
+            "title": "ホームページ",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "详细",
+            "link": "\/search?q=iPhone+OR+Android&options%5Bprefix%5D=last&searchbar=hidden"
           }
         },
-        "featured_collection_Me6EzR": {
-          "type": "featured_collection",
+        "column_4YJzgx": {
+          "type": "column",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/watch.webp",
+            "title": "スマートウォッチ",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "详细",
+            "link": "\/search?q=watch&options%5Bprefix%5D=last&searchbar=hidden"
           }
         },
-        "featured_collection_7dq3Ac": {
-          "type": "featured_collection",
+        "column_A9XMBF": {
+          "type": "column",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/pad.webp",
+            "title": "タブレット",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "详细",
+            "link": "\/search?q=pad&options%5Bprefix%5D=last&searchbar=hidden"
           }
         }
       },
       "block_order": [
-        "featured_collection_TzxP6y",
-        "featured_collection_Me6EzR",
-        "featured_collection_7dq3Ac"
+        "column_haitt6",
+        "column_4YJzgx",
+        "column_A9XMBF"
       ],
       "settings": {
-        "title": "コレクション",
+        "title": "製品分類",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_width": "full",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "ボタンのラベル",
+        "button_link": "shopify:\/\/collections\/all-my-collections",
         "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "スマートウォッチ"
-          }
-        },
-        "collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "スマートフォン"
-          }
-        },
-        "collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "タブレット"
-          }
-        },
-        "collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "パソコン"
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "title": "コレクション",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "image-banner": {
@@ -253,8 +227,7 @@
     "hero-slideshow",
     "left-side-menu",
     "all-products",
-    "collection_list_W4eWAh",
-    "collection-list",
+    "multicolumn_fX3Jwy",
     "image-banner"
   ]
 }
